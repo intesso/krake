@@ -2,11 +2,13 @@
 
 - simple base library for crawl jobs, based on [osmosis](https://www.npmjs.com/package/osmosis).
 - it crawls a website recursively and emits events to take custom actions.
+- it reports broken links (of static pages)
+- it can be used to create a search index of a static website: [example](example.js)
 
 
 ## why
 
-making crawling jobs easier.
+making crawling jobs easier and more robust...
 
 ## how
 
