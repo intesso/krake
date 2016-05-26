@@ -1,0 +1,38 @@
+{
+  "name": "krake",
+  "version": "1.0.0",
+  "description": "simple base library for crawl jobs ",
+  "main": "crawler.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intesso/krake.git"
+  },
+  "keywords": [
+    "crawl",
+    "website-index",
+    "osmosis"
+  ],
+  "author": "Andi Neck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intesso/krake/issues"
+  },
+  "homepage": "https://github.com/intesso/krake#readme",
+  "devDependencies": {
+    "elasticlunr": "^0.8.8",
+    "standard": "^7.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "inherits": "^2.0.1",
+    "onetime": "^1.1.0",
+    "osmosis": "intesso/node-osmosis"
+  }
+}
