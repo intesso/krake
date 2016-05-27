@@ -1,6 +1,6 @@
 {
   "name": "krake",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple base library for crawl jobs ",
   "main": "crawler.js",
   "directories": {
